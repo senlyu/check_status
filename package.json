@@ -5,12 +5,14 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "NODE_MODE=PROD node server.js",
+    "dev": "NODE_MODE=DEV node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
     "portscanner": "^2.2.0"
   }
 }
