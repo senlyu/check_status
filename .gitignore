@@ -2,3 +2,4 @@ service_map.json
 node_modules/
 discord_urls.json
 log.txt
+*.config.js

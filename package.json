@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_MODE=PROD node server.js",
+    "start": "node server.js",
     "dev": "NODE_MODE=DEV node server.js"
   },
   "author": "",
