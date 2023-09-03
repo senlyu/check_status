@@ -81,7 +81,7 @@ class WebTask extends Task {
 
     async report_status(status, current_level) {
         let msg = this.content_generate(status, current_level)
-        if (status!=="normal") {
+        if (status!=="normal" & this.rate > 3) {
             await post_to_main(msg)
         }
         console.log(msg)
